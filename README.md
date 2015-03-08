@@ -3,10 +3,10 @@
 jQuery plugin to force set `img` size attribute(width, height).
 
 ```html
-<!-- before: image but width and height attributes are not defined -->
+<!-- before -->
 <img src="http://placehold.it/350x150">
 
-<!-- after: image size is set -->
+<!-- after -->
 <img src="http://placehold.it/350x150" width="350" height="150">
 ```
 

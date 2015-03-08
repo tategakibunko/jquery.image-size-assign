@@ -104,7 +104,7 @@
       return size;
     },
     onComplete:function(){
-      console.log("all image sizes are set.");
+      //console.log("all image sizes are set.");
     }
   };
 })(jQuery);

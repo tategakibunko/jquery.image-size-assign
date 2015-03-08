@@ -7,7 +7,7 @@ jQuery plugin to force set `img` size attribute(width, height).
 <img src="http://placehold.it/350x150">
 
 <!-- after: image size is set -->
-<img src="foo.png" width="350" height="150">
+<img src="http://placehold.it/350x150" width="350" height="150">
 ```
 
 ## How to use

@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="jquery.image-size-assign.js"></script>
+  <body>
+    <img src="http://placehold.it/350x150"><br>
+    <img src="http://placehold.it/150x350"><br>
+    <img src="http://placehold.it/150x150"><br>
+    <script type="text/javascript">
+      $(function(){
+        $("img").imageSizeAssign({
+          maxSize:{width:200, height:200},
+          onComplete:function(){
+            // now width, height attributes are set!
+            console.log($("body").html());
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

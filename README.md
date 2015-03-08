@@ -33,15 +33,15 @@ $(function(){
 
 ### maxSize
 
-If defined, image size is rounded by `maxSize` keeping original image size rate.
+If defined, each size is rounded by `maxSize` if overflow, keeping original rate of size.
 
 ### onSize
 
-Callback function after image size is obtained and rounded.
+Callback function after each size is obtained and rounded.
 
 ### onComplete
 
-Callback function all size of images are obtained.
+Callback function after all sizes are set.
 
 ## License
 
